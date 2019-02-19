@@ -53,6 +53,6 @@ public class OrderTest {
     @Test
     public void Given_NegativeValue_When_DisplayMenuSelected_Then_DisplayErrorSentence() {
         order.displaySelectedMenu(-6);
-        assertEquals("Vous n'avez pas choisi de menu parmi les choix proposés\n", outContent.toString().replace("\r\n", "\n"));
+        assertEquals("Vous n'avez pas cho isi de menu parmi les choix proposés\n", outContent.toString().replace("\r\n", "\n"));
     }
 }
